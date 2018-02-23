@@ -1,10 +1,10 @@
 <?php 
 
 class database{
-	public $root_db = 'richar19_wyzzi';
-	public $server_name = 'wyzziweb.com:3306';
-	public $root_db_user = 'richar19_wyzzi';
-	public $root_db_pass = 'WyZZ1P@ss';
+	public $root_db = '<DATABASE_NAME>';
+	public $server_name = '<DATABASE_SERVER_AND_PORT>';
+	public $root_db_user = '<DATABASE_USERNAME>';
+	public $root_db_pass = '<DATABASE_PASSWORD>';
 	public $connection;
 	public $error = false;
 
